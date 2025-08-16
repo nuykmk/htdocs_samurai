@@ -10,6 +10,7 @@
 
 <body>
     <h1>{{ $vendor->vendor_name }}の商品一覧</h1>
+    {{-- <h1>{!! $vendor->vendor_name !!}の商品一覧</h1> --}}
     <table>
         <tr>
             <th>ID</th>
